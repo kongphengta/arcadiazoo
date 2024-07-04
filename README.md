@@ -29,4 +29,4 @@ php bin/console make:controller HomeController
 ```
 Le contrôleur "HomeController" est crée dans "src/Controller/HomeController.php" et dans "template/home/index.html.twig" je vais modifier le code de cette page pour faire la page d'accueil de mon projet, je vais d'abord intéegrer le Framework de Bootstrap dans mon projet, je me rend à la documentation de Bootstrap, copier le lien via CDN et coller dans fichier "base.html.twig" comme dans la capture d'écran ci-dessous.
 
-![image](public/images/intégrerBootstrap)
+![image](public/images/intégrerBootstrap.JPG)
