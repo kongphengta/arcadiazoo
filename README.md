@@ -7,3 +7,5 @@
 - PHP 8.3
 - Symfony7
   
+## Installation de Symfony7
+on a plusieurs manière d'installer Symfony7, j'ai choisi la manière plus simple via composer.
