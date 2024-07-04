@@ -15,4 +15,6 @@ composer create-project symfony/skeleton:"7.1.*" arcadiazoo
 cd arcadiazoo
 composer require webapp
 ```
-Maintenant le projet "arcadiazoo" est créé, j'ouvre ce projet avec Visual Studio Code, puis afficher la page de bienvenue de Symfony7.
+Maintenant le projet "arcadiazoo" est créé, j'ouvre ce projet avec Visual Studio Code, puis afficher la page de bienvenue de Symfony7, j'ouvre le terminal puis lance la commande "symfony server:start"
+pour ouvrir la page de bienvenue de Symfony7.
+
