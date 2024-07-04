@@ -16,4 +16,4 @@ cd arcadiazoo
 composer require webapp
 ```
 Maintenant le projet "arcadiazoo" est créé, j'ouvre ce projet avec Visual Studio Code, puis afficher la page de bienvenue de Symfony7. 
-![]('Images/bienvenueSymfony.jpg')
+![Page de bienvenue]('images/bienvenueSymfony.jpg')
