@@ -6,6 +6,7 @@
 - Composer version 2.6.6
 - PHP 8.3
 - Symfony7
+- Bootstrap 5.3
   
 ## Installation de Symfony7
-on a plusieurs manière d'installer Symfony7, j'ai choisi la manière plus simple via composer.
+On a plusieurs manières d'installer Symfony7, j'ai choisi la manière plus simple via composer.
