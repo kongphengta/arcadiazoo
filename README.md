@@ -10,3 +10,9 @@
   
 ## Installation de Symfony7
 On a plusieurs manières d'installer Symfony7, j'ai choisi la manière plus simple via composer.
+```
+composer create-project symfony/skeleton:"7.1.*" arcadiazoo
+cd arcadiazoo
+composer require webapp
+```
+
