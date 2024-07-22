@@ -37,3 +37,5 @@ Avant de commencer ma page d'accueil, je vais installer les icones de Bootstrap 
 npm i bootstrap-icons
 ```
 Bootstrap incones est installé, je vais ensuite créer ma page d'accueil de mon site.
+Et le script je l'ai collé avant la balise fermante de body.
+![image](public/images/scriptBootstrap.JPG)
