@@ -31,6 +31,8 @@ Le contrôleur "HomeController" est crée dans "src/Controller/HomeController.ph
 
 ![image](public/images/intégrerBootstrap.JPG)
 
+Et le script je l'ai collé avant la balise fermante de body.
+
 ![image](public/images/scriptBootstrap.JPG)
 
 Avant de commencer ma page d'accueil, je vais installer les icones de Bootstrap en cas ou j'ai besoin de les utiliser, je reviens sur la documentation de Bootstrap copier et lancer la commande suivant :
@@ -39,5 +41,5 @@ Avant de commencer ma page d'accueil, je vais installer les icones de Bootstrap 
 npm i bootstrap-icons
 ```
 Bootstrap incones est installé, je vais ensuite créer ma page d'accueil de mon site.
-Et le script je l'ai collé avant la balise fermante de body.
+
 
