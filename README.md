@@ -32,7 +32,7 @@ La page de bienvenue de Symfony est bien affichée mais je voulais créer ma pag
 ```
 php bin/console make:controller HomeController
 ```
-Le contrôleur "HomeController" est crée dans "src/Controller/HomeController.php" et dans "template/home/index.html.twig" je vais modifier le code de cette page pour faire la page d'accueil de mon projet, je vais d'abord intégrer le Framework de Bootstrap en même occasion j'intègre aussi Bootstrap-icons dans mon projet, je me rend à la documentation de Bootstrap, copier le lien via CDN et coller dans fichier "base.html.twig" entre la balise ouvrante et la balise fermante de head comme dans la capture d'écran ci-dessous.
+Le contrôleur "HomeController" est crée dans "src/Controller/HomeController.php" et dans "template/home/index.html.twig" je vais modifier le code de cette page pour faire la page d'accueil de mon projet, je vais d'abord intégrer le Framework de Bootstrap en même occasion j'intègre aussi Bootstrap-icons dans mon projet, je me rend à la documentation de Bootstrap, copier le lien via CDN et coller dans fichier "base.html.twig" entre la balise ouvrante et la balise fermante de "head" comme dans la capture d'écran ci-dessous.
 
 ![](public/images/intégrerBootstrap.JPG)
 
@@ -42,17 +42,19 @@ Et le script je l'ai collé avant la balise fermante de body.
 
 Avant de commencer à coder ma page d'accueil il me reste une chose important à faire, par rapport à la palette de couleur que j'ai déterminé dans Charte Graphique de "Figma", 
 [Charte Graphique](https://www.figma.com/design/u9WRTomub3dcGjSojmiRNO/Arcadia-Zoo?node-id=18-4&t=y9DscXB5wf2WZbbh-0).  
-Pour pouvoir l'utiliser je dois ajouter sass de Bootstrap dans mon projet.
+Pour pouvoir l'utiliser je dois ajouter sass de Bootstrap dans mon projet.  
 Pour compiler mes fichiers scss j'installe une extension "Live Sass Compiler" sur mon éditeur de texte Visual Studio Code, une fois installé j'ai un bouton "Watch Sass" sur la "Status Bar" qui se trouve en bas de l'éditeur, je dois cliquer sur ce bouton à chaque fois je veux compiler mes fichiers.
 
 ![](public/images/StatusBar.JPG)
 
-Pour Sass de Bootstrap, je télécharge les fichiers sources dans cet archive j'ai un répertoire "scss" je copie ce dernier et coller dans mon projet "arcadiazoo".
+Pour Sass de Bootstrap, je télécharge les fichiers sources dans cet archive j'ai un répertoire "scss" je copie ce dernier et coller dans mon projet "arcadiazoo".  
+
 ![](public/images/ScssBootstrap.JPG)
 
-Après avoir intégrer ce répertoire "scss" je me trouve avec 113 changements, je nepeux pas envoyer tous ces fichiers sur GitHub je vais mettre ce répertoire scss sur .gitignore une fois c'est fait il me reste 6 changements je vais commiter ces changements maintenant pour que tout soit propre.  
+Après avoir intégré ce répertoire "scss" je me trouve avec 113 changements, je ne peux pas envoyer tous ces fichiers sur GitHub je vais mettre ce répertoire "scss" dans .gitignore une fois c'est fait il me reste 6 changements et la couleur de ce répertoire à changé aussi, je vais commiter ces changements maintenant pour que tout soit propre.  
 
 ![](public/images/gitignore.JPG)
+
 
 
 
