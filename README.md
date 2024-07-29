@@ -44,8 +44,7 @@ Avant de commencer à coder ma page d'accueil il me reste une chose important à
 
 [Charte Graphique](https://www.figma.com/design/u9WRTomub3dcGjSojmiRNO/Arcadia-Zoo?node-id=18-4&t=y9DscXB5wf2WZbbh-0).  
 
-Pour pouvoir l'utiliser je dois ajouter sass pour Symfony dans mon projet.  
-Pour compiler mes fichiers scss j'installe une extension "Live Sass Compiler" sur mon éditeur de texte Visual Studio Code, une fois installé j'ai un bouton "Watch Sass" sur la "Status Bar" qui se trouve en bas de l'éditeur, je dois cliquer sur ce bouton si je veux compiler mes fichiers.
+Pour pouvoir l'utiliser je dois ajouter sass pour Symfony dans mon projet, pour compiler mes fichiers scss j'installe une extension "Live Sass Compiler" sur mon éditeur de texte Visual Studio Code, une fois installé j'ai un bouton "Watch Sass" sur la "Status Bar" qui se trouve en bas de l'éditeur, je dois cliquer sur ce bouton si je veux compiler mes fichiers.
 
 ![](public/images/StatusBar.JPG)
 
@@ -55,7 +54,7 @@ Installation sass (le bundle) pour Symfony je lance la commande :
 ```
 Usage :   
 Dans le répertoire "assets/styles" je créé un fichier "app.scss" et son contenu le style de base puis je clique sur le bouton "Watch Sass" qui se trouve sur la barre de status pour générer le fichier "app.scss"
-```php
+```scss
 /* assets/styles/app.scss */
 
 $red: #fc030b;
@@ -64,7 +63,7 @@ body {
   background: $red;
 }
 ```  
-J'ai maintenant le fichier "app.scss" est géneré en "app.css"  
+J'ai maintenant le fichier "app.scss" qui est géneré en "app.css"  
 
 ```css
 /* assets/styles/app.css */
@@ -73,9 +72,6 @@ body {
   background: #fc030b;
 }/*# sourceMappingURL=app.css.map */  
 ```
-
-
-
 Ensuite, dans le répertoire "templates/base.html.twig" je créé un lien dans la bolck stylsheets.
 
 ```twig  
@@ -90,7 +86,7 @@ J'actualise la page pour tester.
 
 ![](public/images/pageDeTest.JPG)  
 
-Le fichier "scss" fonctionne bien, je peux maintenant commencer à coder ma page d'accueil, je reviens sur ma "Charte Graphique" sur Figma et copie les codes de couleurs que j'ai défini quatre couleurs "Primary, Secondary, Dark et Blue" et aller mettre sur "app.scss" à commencer par la couleur "Primary".
+Le fichier "scss" fonctionne bien, je peux maintenant commencer à coder ma page d'accueil, je reviens sur ma "Charte Graphique" sur Figma et copie les codes de couleurs que j'ai défini quatre couleurs "Primary, Secondary, Dark et Blue" et aller mettre sur "app.scss".
 
 [Charte Graphique](https://www.figma.com/design/u9WRTomub3dcGjSojmiRNO/Arcadia-Zoo?node-id=18-4&t=pa22WYHkynkYqYpd-0)  
 
